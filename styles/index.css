@@ -1,0 +1,94 @@
+/* Reset básico e estilo do corpo */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #0064ff; /* azul mais escuro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-bar {
+    margin-top: 15px;
+}
+
+.botao {
+    background-color: #fff;
+    color: #1e90ff;
+    border: 2px solid #1e90ff;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.botao i {
+    margin-right: 10px;
+}
+
+.botao:hover {
+    background-color: #1e90ff;
+    color: #fff;
+}
+
+/* Conteúdo principal */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Foto do perfil */
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px auto;
+    border: 4px solid #1e90ff;
+}
+
+/* Links de contato centralizados em linha */
+.contato-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.contato-links a {
+    text-decoration: none;
+    color: #0a3d91; /* azul escuro mais elegante */
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.contato-links a:hover {
+    color: #0056b3;
+}
+
+.contato-links i {
+    margin-right: 6px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #0064ff;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 210px;
+}
